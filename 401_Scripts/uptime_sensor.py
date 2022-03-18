@@ -5,7 +5,7 @@ import os, time, datetime;
 # Declare functions
 
 def check_ping(target):
-    response = os.system("ping -c 1" + target)
+    response = os.system("ping -c 1 " + target)
 
     # check the response
     print(response)
